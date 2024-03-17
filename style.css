@@ -1,0 +1,169 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body {
+    background-color: antiquewhite;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+a,
+img {
+    text-decoration: none;
+    border: none;
+}
+
+.principal {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    color: black;
+    width: 960px;
+}
+
+/*CABEÇALHO*/
+
+header {
+    height: 100px;
+}
+
+.logo-cabecalho {
+    float: left;
+}
+.logo-cabecalho a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px 0 0 0;
+}
+
+.pesquisa {
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+/*CABEÇALHO MENU*/
+
+.menu {
+    background-color: rgb(22, 130, 207);
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    color: bisque;
+    padding: 11px 20px;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(11, 95, 205);
+}
+
+/*CORPO DO TEXTO*/
+
+.corpo {
+    position: relative;
+    overflow: hidden;
+}
+
+.artigos {
+    float: left;
+}
+
+.artigos,
+.artigos:before {
+    width: 70%;
+}
+
+.artigos:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(205, 209, 206);
+    z-index: -1;
+    content: "";
+}
+
+.espaco {
+    padding: 20px;
+    text-align: justify;
+}
+
+.espaco h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.espaco p img {
+    padding: auto;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.barralateral {
+    float: right;
+}
+
+.barralateral,
+.barralateral:before {
+    width: 30%;
+}
+
+.barralateral:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: rgb(166, 176, 184);
+}
+
+.barralateral h2 {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.barralateral p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.imagem {
+    padding: 0px 10px;
+    width: 260px;
+    display: block;
+    margin: auto;
+}
+
+.barralateral ul {
+    margin: 0;
+    padding: 5;
+    list-style: none;
+}
+
+/*RODAPÉ*/
+
+footer {
+    background-color: rgb(22, 130, 207);
+    width: 960px;
+    text-align: center;
+    color: rgb(226, 226, 226);
+}
